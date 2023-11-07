@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.container
+{
+    display: grid;
+    width: 900px;
+    height: 900px;
+    border: 1px solid black;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    height: 3rem;
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: lightseagreen;
+    color: white;
+    font-weight: bold;
+}
